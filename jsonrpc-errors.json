@@ -24,6 +24,11 @@
         "message": "INVALID_REQUEST",
         "data": "Ошибка запроса (не соответсвует стандарту JSON-RPC)"
     },
+    "SERVICE_FORBIDDEN": {
+        "code": -32004,
+        "message": "SERVICE_FORBIDDEN",
+        "data": "Доступ к сервису запрещен (для внутреннего использования)"
+    },
     "SERVICE_UPDATING": {
         "code": -32003,
         "message": "SERVICE_UPDATING",
