@@ -24,6 +24,11 @@
         "message": "INVALID_REQUEST",
         "data": "Ошибка запроса (не соответсвует стандарту JSON-RPC)"
     },
+    "SERVICE_UPDATING": {
+        "code": -32003,
+        "message": "SERVICE_UPDATING",
+        "data": "Происходит обновления сервиса, времено не доступен"
+    },
     "SERVICE_DISABLED": {
         "code": -32002,
         "message": "SERVICE_DISABLED",
