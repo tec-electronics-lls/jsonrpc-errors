@@ -1,26 +1,49 @@
 {
-    "SERVICE_ERROR": {
-        "code": -32000,
-        "message": "SERVICE_ERROR",
-        "data": "Ошибка сервиса (необработанное исключени, ошибка связи с БД и что-то другое)"
+    "PARSE_ERROR": {
+        "code": -32700,
+        "message": "PARSE_ERROR",
+        "data": "Ошибка разбора входящего JSON"
+    },
+    "INTERNAL_ERROR": {
+        "code": -32603,
+        "message": "INTERNAL_ERROR",
+        "data": "Внутренняя ошибка сервиса (не обработанное исключение, отвалившаяся БД или что-то другое)"
     },
     "INVALID_PARAMS": {
         "code": -32602,
         "message": "INVALID_PARAMS",
-        "data": "Ошибка во входящих параметрах"
+        "data": "Ошибка в параметрах запроса"
+    },
+    "METHOD_IS_NOT_FOUND": {
+        "code": -32601,
+        "message": "METHOD_IS_NOT_FOUND",
+        "data": "Запрошенный метод не существует"
+    },
+    "INVALID_REQUEST": {
+        "code": -32600,
+        "message": "INVALID_REQUEST",
+        "data": "Ошибка запроса (не соответсвует стандарту JSON-RPC)"
+    },
+    "SERVICE_DISABLED": {
+        "code": -32002,
+        "message": "SERVICE_DISABLED",
+        "data": "Попытка обращения к устаревшему сервису, необходимо обновить клиента, генерирует Nginx"
+    },
+    "SERVICE_ERROR": {
+        "code": -32001,
+        "message": "SERVICE_ERROR",
+        "data": "Обращение к сервису, которого никогда не существовало, генерирует Nginx"
     },
     "INVALID_LOGIN": {
         "code": 1,
         "message": "INVALID_LOGIN",
         "data": "Ошибка в логине (не удалось определить тип - телефон или адрес электронной почты)"
     },
-
     "INVALID_PROFILE": {
         "code": 2,
         "message": "INVALID_PROFILE",
         "data": "Ошибка в идентификаторе профиля"
     },
-
     "INVALID_SESSION": {
         "code": 3,
         "message": "INVALID_SESSION",
@@ -31,7 +54,6 @@
         "message": "LOGIN_USED",
         "data": "Телефон или адрес электронной почты уже используется"
     },
-
     "WRONG_PASSWORD": {
         "code": 5,
         "message": "WRONG_PASSWORD",
