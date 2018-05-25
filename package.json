@@ -1,0 +1,15 @@
+{
+  "name": "jrpc-errors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jrpc-errors.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.tecel.ru/Services/jrpc-errors.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
