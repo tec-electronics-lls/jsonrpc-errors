@@ -1,8 +1,8 @@
 {
-  "name": "jrpc-errors",
+  "name": "jsonrpc-errors",
   "version": "1.0.0",
   "description": "",
-  "main": "jrpc-errors.json",
+  "main": "jsonrpc-errors.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
