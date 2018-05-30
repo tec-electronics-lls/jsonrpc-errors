@@ -93,5 +93,10 @@
         "code": 10,
         "message": "INVALID_PATH",
         "data": "Ошибка в пути к файлу"
+    },
+    "MESSAGE_TIMEOUT": {
+        "code": 11,
+        "message": "MESSAGE_TIMEOUT",
+        "data": "Для отправки сообщения необходимо выждать время"
     }
 }
