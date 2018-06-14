@@ -97,6 +97,7 @@
     "MESSAGE_TIMEOUT": {
         "code": 11,
         "message": "MESSAGE_TIMEOUT",
+<<<<<<< HEAD
         "data": "Лимит отправок сообщений на адрес/номер"
     },
     "PROFI_ALREADY": {
@@ -108,5 +109,8 @@
         "code": 13,
         "message": "PROFI_DENIED",
         "data": "Отказано в Профи"
+=======
+        "data": "Для отправки сообщения необходимо выждать время"
+>>>>>>> fb59259f86790e4dff99c942a034f1bde10d7729
     }
 }
