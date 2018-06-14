@@ -93,5 +93,20 @@
         "code": 10,
         "message": "INVALID_PATH",
         "data": "Ошибка в пути к файлу"
+    },
+    "MESSAGE_TIMEOUT": {
+        "code": 11,
+        "message": "MESSAGE_TIMEOUT",
+        "data": "Лимит отправок сообщений на адрес/номер"
+    },
+    "PROFI_ALREADY": {
+        "code": 12,
+        "message": "PROFI_ALREADY",
+        "data": "Уже Профи"
+    },
+    "PROFI_DENIED": {
+        "code": 13,
+        "message": "PROFI_DENIED",
+        "data": "Отказано в Профи"
     }
 }
