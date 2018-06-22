@@ -118,5 +118,5 @@
         "code": 15,
         "message": "WRONG_CHANNEL",
         "data": "Логин не найден в системе"
-    },
+    }
 }
