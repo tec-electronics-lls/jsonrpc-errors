@@ -74,7 +74,7 @@
         "message": "WRONG_CODE",
         "data": "Ошибка в коде подтверждения номера или адреса электронной почты"
     },
-    "WRONG_CHANNEL": {
+    "WRONG_LOGIN": {
         "code": 7,
         "message": "WRONG_LOGIN",
         "data": "Логин не найден в системе"
@@ -113,5 +113,10 @@
         "code": 14,
         "message": "FILE_NOT_FOUND",
         "data": "Файл не найден"
-    }
+    },
+    "WRONG_CHANNEL": {
+        "code": 15,
+        "message": "WRONG_CHANNEL",
+        "data": "Логин не найден в системе"
+    },
 }
