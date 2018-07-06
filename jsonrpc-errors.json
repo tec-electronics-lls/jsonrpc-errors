@@ -118,5 +118,10 @@
         "code": 15,
         "message": "WRONG_CHANNEL",
         "data": "Логин не найден в системе"
+    },
+    "COMPILE_ERROR": {
+        "code": 16,
+        "message": "COMPILE_ERROR",
+        "data": "Ошибка компиляции файла"
     }
 }
